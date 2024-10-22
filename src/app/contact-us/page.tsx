@@ -1,4 +1,4 @@
-import Navbar from "../component/page";
+
 
 export default function Contact() {
   return (
