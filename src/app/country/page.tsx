@@ -7,7 +7,7 @@ export default function Country (){
         <div>
             <h1 className="text-xl font-semibold font">This is the country page</h1>
            <ul>
-            {countries.map((country) => (
+            {countries.map((country:any) => (
                 <li key={countries.indexOf(country)}>
                     <Link href={`/country/${country.name.toLowerCase()}`}>{country.name}</Link>
                 </li>
